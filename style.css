@@ -1,0 +1,128 @@
+.navbar{
+    text-align: center;
+    /* width: 100%; */
+    color: rgb(2, 0, 0);
+    font-size: 50px;
+    margin-right: 15px;
+    padding: 25px;
+}
+a{
+    margin: 50px;
+    color: rgba(239, 239, 7, 0.968);
+}
+#search{
+    background-color: rgb(201, 206, 206);
+}
+#btn
+{
+    size: 50px;
+    background-color: yellow;
+}
+
+.container{
+    height: 500px;
+    width: 520px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(7, 7, 0);
+    border-radius: 40px;
+    margin: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom:  50px;
+}
+
+@keyframes picturesOne {
+    0%   { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe1.jpg");  background-size: cover;}
+    20%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe2.jpg");  background-size: cover;}
+    40%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe3.jpg");  background-size: cover;}
+    60%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe4.jpg");  background-size: cover;}
+    80%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe5.jpg"); background-size: cover; }
+    100% { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe6.jpg");  background-size: cover;}
+  }
+#one{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border:4px solid black;
+    animation: picturesOne 5s infinite linear;
+}
+
+
+@keyframes picturesTwo {
+    0%   { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe2.jpg");  background-size: cover;}
+    20%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe3.jpg");  background-size: cover;}
+    40%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe4.jpg");  background-size: cover;}
+    60%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe5.jpg");  background-size: cover;}
+    80%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe6.jpg"); background-size: cover; }
+    100% { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe1.jpg");  background-size: cover;}
+  }
+#two{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border:4px solid black;
+    animation: picturesTwo 20s infinite linear;
+}
+@keyframes picturesThree {
+    0%   { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe3.jpg");  background-size: cover;}
+    20%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe4.jpg");  background-size: cover;}
+    40%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe5.jpg");  background-size: cover;}
+    60%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe6.jpg");  background-size: cover;}
+    80%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe1.jpg"); background-size: cover; }
+    100% { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe2.jpg");  background-size: cover;}
+  }
+#three{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border:4px solid black;
+    animation: picturesThree 20s infinite linear;
+}
+
+@keyframes picturesFour {
+    0%   { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe4.jpg");  background-size: cover;}
+    20%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe5.jpg");  background-size: cover;}
+    40%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe6.jpg");  background-size: cover;}
+    60%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe1.jpg");  background-size: cover;}
+    80%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe2.jpg"); background-size: cover; }
+    100% { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffe3.jpg");  background-size: cover;}
+  }
+#four{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border:4px solid black;
+    animation: picturesFour 5s infinite linear;
+}
+
+
+
+@keyframes aboutCOFFEE {
+    0% {background-color: antiquewhite;}
+    20%{ background-color: rgb(241, 208, 45);}
+    40%{background-color: antiquewhite;}
+    60%{background-color: rgb(241, 208, 45);}
+    80%{background-color: antiquewhite;}
+    100%{background-color: rgb(241, 208, 45);}
+}
+#aboutCoffee{
+    height: 150px;
+    width: 500px;
+    border: 2px solid cornsilk;
+    border-radius: 40px;
+    animation: aboutCOFFEE 10s infinite linear;
+    position: absolute;
+    right: 120px;
+    bottom: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+p{
+
+    color: black;
+    align-items: center;
+    font-size: 35px;
+}
+

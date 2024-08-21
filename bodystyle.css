@@ -1,0 +1,12 @@
+@keyframes picturesOne {
+    0%   { background-image: url("/WEB_D/first/PRACTICE$/Pract012/wallpapar.jpg");  background-size: cover;}
+    20%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffewallpaper.jpg");  background-size: cover;}
+    40%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/wallpapar2.jpg");  background-size: cover;}
+    60%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/wallpapar.jpg");  background-size: cover;}
+    80%  { background-image: url("/WEB_D/first/PRACTICE$/Pract012/coffewallpaper.jpg"); background-size: cover; }
+    100% { background-image: url("/WEB_D/first/PRACTICE$/Pract012/wallpapar2.jpg");  background-size: cover;}
+  }
+
+body{
+    animation: picturesOne 50s infinite linear;
+}
